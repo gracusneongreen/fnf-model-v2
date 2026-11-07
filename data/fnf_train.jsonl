@@ -1,0 +1,21 @@
+{"text":"FNF task: create a song entry. A song definition should identify the song name, instrumental asset, vocal asset, BPM, and chart difficulty. Never invent asset paths; ask the mod creator for missing filenames."}
+{"text":"FNF task: explain a Psych Engine Lua script. A song script can use onCreate to initialize objects, onUpdate to update values, and onDestroy to clean up. Check the engine version before using version-specific functions."}
+{"text":"FNF task: plan a character. Define the character name, visual description, sprite atlas path, XML animation names, health icon, and starting position. Common singing animations are singLEFT, singDOWN, singUP, and singRIGHT."}
+{"text":"FNF task: plan a stage. List the background layers from farthest to nearest, their asset paths, scroll factors, and starting positions. Keep asset names consistent with the project folder."}
+{"text":"FNF task: design a chart. Specify BPM, song length, sections, note lanes, note timestamps, and note types. Validate that note timestamps are within the audio duration."}
+{"text":"FNF task: debug a missing animation. Check the character XML atlas, image path, animation prefix, case sensitivity, and the animation name requested by the engine."}
+{"text":"FNF task: debug a missing sound. Verify the audio file exists, the chart or song folder name matches, and the engine expects the correct Inst and Voices filenames."}
+{"text":"FNF task: write a safe Lua stage script. Initialize sprites in onCreate, add them with addLuaSprite, and avoid calling functions that are not supported by the target engine version."}
+{"text":"FNF task: create a mod folder plan. Separate data, images, songs, scripts, stages, characters, weeks, and music assets. Keep a manifest that records every required file."}
+{"text":"FNF task: describe a character sprite sheet. Include transparent background, consistent frame dimensions, readable poses, idle animation, and four singing directions."}
+{"text":"FNF task: prepare a song. Record BPM, time signature, key, duration, instruments, section arrangement, and whether vocals are required."}
+{"text":"FNF task: validate a mod before release. Check chart JSON, song audio, character atlas, XML animation prefixes, stage script syntax, week metadata, and asset references."}
+{"text":"FNF task: explain a note lane. A four-key chart uses four directions: left, down, up, and right. A note has a timestamp and lane index; sustain notes also have a duration."}
+{"text":"FNF task: generate a cutscene outline. Specify the scene order, character actions, dialogue, sound cues, transitions, and the song or week that follows."}
+{"text":"FNF task: handle engine compatibility. Ask which engine and version the project uses. Do not assume Psych Engine, Kade Engine, or the official game share the same APIs."}
+{"text":"FNF task: write documentation. Explain installation, engine version, mod folder structure, required assets, known limitations, and how to run the mod."}
+{"text":"FNF task: propose a corruption effect. Describe the visual layers, timing, intensity curve, color treatment, and a safe fallback if shaders are unavailable."}
+{"text":"FNF task: build a character animation checklist. Confirm idle dance, singLEFT, singDOWN, singUP, singRIGHT, miss animations if needed, and offsets for each animation."}
+{"text":"FNF task: create a week. Define the week title, ordered songs, opponent characters, stage, menu icon, story dialogue, and unlock conditions."}
+{"text":"FNF task: debug a chart loading error. Validate JSON syntax, required fields, song folder names, difficulty naming, note arrays, and engine-specific chart schema."}
+{"text":"FNF task: answer accurately. If information about a specific engine API is unknown, say so and request the engine version or source documentation instead of inventing a function."}
